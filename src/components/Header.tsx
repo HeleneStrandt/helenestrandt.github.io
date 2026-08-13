@@ -1,11 +1,8 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import cvAsset from "@/assets/CV.pdf.asset.json";
 
-interface HeaderProps {
-  onOpenCV: () => void;
-}
-
-export function Header({ onOpenCV }: HeaderProps) {
+export function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
