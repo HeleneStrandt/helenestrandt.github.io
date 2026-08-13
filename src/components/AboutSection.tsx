@@ -12,20 +12,11 @@ export function AboutSection() {
           </div>
 
           <div>
-            <p className="mb-3 text-sm font-medium uppercase tracking-widest text-primary">
-              Hallo, ich bin
-            </p>
-            <h1 className="mb-6 text-4xl font-medium leading-tight tracking-tight md:text-5xl lg:text-6xl">
-              Helene Strandt
-            </h1>
-            <p className="mb-6 text-lg leading-relaxed text-muted-foreground">
+            <p className="text-lg leading-relaxed text-muted-foreground">
               Ich gestalte digitale Produkte mit Fokus auf klare Ideen, minimalistisches Design
               und durchdachte Details. In meiner Arbeit verbinde ich Ästhetik mit Funktion – immer
-              mit dem Ziel, etwas Einfaches und Nachhaltiges zu schaffen.
-            </p>
-            <p className="text-base leading-relaxed text-muted-foreground">
-              Aktuell suche ich neue Projekte und spannende Herausforderungen im Bereich Web,
-              Design und digitale Produkte.
+              mit dem Ziel, etwas Einfaches und Nachhaltiges zu schaffen. Aktuell suche ich neue
+              Projekte und spannende Herausforderungen im Bereich Web, Design und digitale Produkte.
             </p>
           </div>
         </div>
