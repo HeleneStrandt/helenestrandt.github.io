@@ -1,10 +1,8 @@
-import { useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 
 import { Header } from "@/components/Header";
 import { AboutSection } from "@/components/AboutSection";
 import { ProjectsSection } from "@/components/ProjectsSection";
-import { CVModal } from "@/components/CVModal";
 import { Footer } from "@/components/Footer";
 
 export const Route = createFileRoute("/")({
@@ -22,17 +20,14 @@ export const Route = createFileRoute("/")({
 });
 
 function Index() {
-  const [cvOpen, setCvOpen] = useState(false);
-
   return (
     <div className="min-h-screen bg-background font-sans text-foreground">
-      <Header onOpenCV={() => setCvOpen(true)} />
+      <Header />
       <main>
         <AboutSection />
         <ProjectsSection />
       </main>
       <Footer />
-      <CVModal isOpen={cvOpen} onClose={() => setCvOpen(false)} />
     </div>
   );
 }
