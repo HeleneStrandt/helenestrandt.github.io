@@ -32,12 +32,12 @@ export function ProjectsSection() {
           <h2 className="text-3xl font-medium tracking-tight md:text-4xl">Research</h2>
         </div>
 
-        <div className="flex flex-col">
+        <div className="flex flex-col gap-12">
           {projects.map((project, index) => (
             <a
               key={project.title}
               href={project.link}
-              className="group flex flex-col justify-between border-b border-white/10 py-8 transition-colors first:border-t hover:text-primary"
+              className="group flex flex-col justify-between transition-colors hover:text-primary"
             >
               <div>
                 <div className="mb-3 flex items-start justify-between">
