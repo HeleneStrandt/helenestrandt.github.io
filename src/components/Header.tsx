@@ -62,15 +62,15 @@ export function Header() {
                 {link.label}
               </a>
             ))}
-            <button
-              onClick={() => {
-                setIsOpen(false);
-                onOpenCV();
-              }}
-              className="w-full rounded-full border border-primary/30 px-4 py-2 text-sm font-medium text-primary transition-colors hover:bg-primary hover:text-primary-foreground"
+            <a
+              href={cvAsset.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setIsOpen(false)}
+              className="w-full rounded-full border border-primary/30 px-4 py-2 text-center text-sm font-medium text-primary transition-colors hover:bg-primary hover:text-primary-foreground"
             >
               CV
-            </button>
+            </a>
           </nav>
         </div>
       )}
