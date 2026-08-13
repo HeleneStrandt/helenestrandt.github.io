@@ -3,8 +3,8 @@ import { ArrowUpRight } from "lucide-react";
 
 const papers = [
   {
-    title: "Projekt Alpha",
-    coAuthors: "with Anna Müller & Clara Schmidt",
+    title: "Informal Justice and the State",
+    coAuthors: "",
     abstract:
       "Eine minimalistische Web-App zur Visualisierung von Daten. Fokus auf klare Typografie, reduzierte Farben und intuitive Bedienung.",
     draftUrl: "#",
@@ -14,8 +14,8 @@ const papers = [
     ],
   },
   {
-    title: "Friends and Foes",
-    coAuthors: "with Laura Weber",
+    title: "From Friends to Foes: Identity and Knowledge Exchange",
+    coAuthors: "with Nadzeya Laurentsyeva - under review",
     abstract:
       "Redesign und Entwicklung einer Landing Page für ein digitales Produkt. Ziel war eine schnelle Ladezeit und ein klares Nutzererlebnis.",
     draftUrl: "#",
@@ -27,8 +27,8 @@ const papers = [
     ],
   },
   {
-    title: "Projekt Gamma",
-    coAuthors: "with Nora Klein & Pia Hoffmann",
+    title: "Management Practices and Firm Performance During the Great Recession",
+    coAuthors: "with Florian Englmaier, Jose E. Galdon-Sanchez, Ricard Gil, & Michael Kaiser - under review",
     abstract:
       "Konzeption und Umsetzung eines Design-Systems. Skalierbare Komponenten, konsistente Tokens und barrierefreie Farbgebung.",
     draftUrl: "#",
