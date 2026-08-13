@@ -14,14 +14,16 @@ const papers = [
     ],
   },
   {
-    title: "Projekt Beta",
+    title: "Friends and Foes",
     coAuthors: "with Laura Weber",
     abstract:
       "Redesign und Entwicklung einer Landing Page für ein digitales Produkt. Ziel war eine schnelle Ladezeit und ein klares Nutzererlebnis.",
     draftUrl: "#",
+    githubUrl: "#",
     collaborations: [
-      { label: "Institute Z", url: "#" },
-      { label: "Research Group A", url: "#" },
+      { label: "bidt", url: "https://en.bidt.digital/" },
+      { label: "DFG", url: "#" },
+      { label: "Third Partner", url: "#" },
     ],
   },
   {
@@ -74,14 +76,26 @@ export function ProjectsSection() {
                 </p>
               )}
 
-              <a
-                href={paper.draftUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-1 self-start rounded-full border border-primary/30 px-4 py-1.5 text-sm font-medium text-primary transition-colors hover:bg-primary hover:text-primary-foreground"
-              >
-                Draft <ArrowUpRight className="h-4 w-4" />
-              </a>
+              <div className="flex flex-wrap gap-3">
+                <a
+                  href={paper.draftUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1 rounded-full border border-primary/30 px-4 py-1.5 text-sm font-medium text-primary transition-colors hover:bg-primary hover:text-primary-foreground"
+                >
+                  Draft <ArrowUpRight className="h-4 w-4" />
+                </a>
+                {"githubUrl" in paper && paper.githubUrl && (
+                  <a
+                    href={paper.githubUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1 rounded-full border border-primary/30 px-4 py-1.5 text-sm font-medium text-primary transition-colors hover:bg-primary hover:text-primary-foreground"
+                  >
+                    GitHub Repo <ArrowUpRight className="h-4 w-4" />
+                  </a>
+                )}
+              </div>
 
               <div className="flex flex-wrap gap-2">
                 {paper.collaborations.map((link) => (
