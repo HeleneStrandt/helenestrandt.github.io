@@ -29,10 +29,7 @@ export function ProjectsSection() {
     <section id="projects" className="py-20 md:py-28">
       <div className="mx-auto max-w-5xl px-6">
         <div className="mb-12">
-          <p className="mb-2 text-sm font-medium uppercase tracking-widest text-primary">
-            Ausgewählte Arbeiten
-          </p>
-          <h2 className="text-3xl font-medium tracking-tight md:text-4xl">Projekte</h2>
+          <h2 className="text-3xl font-medium tracking-tight md:text-4xl">Research</h2>
         </div>
 
         <div className="grid gap-6 md:grid-cols-2">
