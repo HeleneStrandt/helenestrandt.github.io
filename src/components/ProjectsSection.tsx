@@ -32,25 +32,25 @@ export function ProjectsSection() {
           <h2 className="text-3xl font-medium tracking-tight md:text-4xl">Research</h2>
         </div>
 
-        <div className="grid gap-6 md:grid-cols-2">
-          {projects.map((project) => (
+        <div className="flex flex-col">
+          {projects.map((project, index) => (
             <a
               key={project.title}
               href={project.link}
-              className="group flex flex-col justify-between rounded-2xl border border-white/10 bg-card p-6 transition-all hover:border-primary/30 hover:bg-card/80"
+              className="group flex flex-col justify-between border-b border-white/10 py-8 transition-colors first:border-t hover:text-primary"
             >
               <div>
-                <div className="mb-4 flex items-start justify-between">
+                <div className="mb-3 flex items-start justify-between">
                   <h3 className="text-xl font-medium">{project.title}</h3>
                   <ArrowUpRight className="h-5 w-5 text-muted-foreground transition-colors group-hover:text-primary" />
                 </div>
-                <p className="mb-6 leading-relaxed text-muted-foreground">{project.description}</p>
+                <p className="mb-4 max-w-3xl leading-relaxed text-muted-foreground">{project.description}</p>
               </div>
               <div className="flex flex-wrap gap-2">
                 {project.tags.map((tag) => (
                   <span
                     key={tag}
-                    className="rounded-full border border-white/10 px-3 py-1 text-xs text-muted-foreground"
+                    className="text-xs text-muted-foreground"
                   >
                     {tag}
                   </span>
