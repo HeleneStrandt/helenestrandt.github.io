@@ -14,14 +14,16 @@ const papers = [
     ],
   },
   {
-    title: "Projekt Beta",
+    title: "Friends and Foes",
     coAuthors: "with Laura Weber",
     abstract:
       "Redesign und Entwicklung einer Landing Page für ein digitales Produkt. Ziel war eine schnelle Ladezeit und ein klares Nutzererlebnis.",
     draftUrl: "#",
+    githubUrl: "#",
     collaborations: [
-      { label: "Institute Z", url: "#" },
-      { label: "Research Group A", url: "#" },
+      { label: "bidt", url: "https://en.bidt.digital/" },
+      { label: "DFG", url: "#" },
+      { label: "Third Partner", url: "#" },
     ],
   },
   {
