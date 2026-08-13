@@ -1,11 +1,8 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import cvAsset from "@/assets/CV.pdf.asset.json";
 
-interface HeaderProps {
-  onOpenCV: () => void;
-}
-
-export function Header({ onOpenCV }: HeaderProps) {
+export function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
@@ -33,12 +30,14 @@ export function Header({ onOpenCV }: HeaderProps) {
               {link.label}
             </a>
           ))}
-          <button
-            onClick={onOpenCV}
+          <a
+            href={cvAsset.url}
+            target="_blank"
+            rel="noopener noreferrer"
             className="rounded-full border border-primary/30 px-4 py-1.5 text-sm font-medium text-primary transition-colors hover:bg-primary hover:text-primary-foreground"
           >
             CV
-          </button>
+          </a>
         </nav>
 
         <button
@@ -63,15 +62,15 @@ export function Header({ onOpenCV }: HeaderProps) {
                 {link.label}
               </a>
             ))}
-            <button
-              onClick={() => {
-                setIsOpen(false);
-                onOpenCV();
-              }}
-              className="w-full rounded-full border border-primary/30 px-4 py-2 text-sm font-medium text-primary transition-colors hover:bg-primary hover:text-primary-foreground"
+            <a
+              href={cvAsset.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setIsOpen(false)}
+              className="w-full rounded-full border border-primary/30 px-4 py-2 text-center text-sm font-medium text-primary transition-colors hover:bg-primary hover:text-primary-foreground"
             >
               CV
-            </button>
+            </a>
           </nav>
         </div>
       )}
