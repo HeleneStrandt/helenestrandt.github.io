@@ -23,7 +23,7 @@ const papers = [
     collaborations: [
       { label: "bidt", url: "https://en.bidt.digital/" },
       { label: "DFG", url: "#" },
-      { label: "Third Partner", url: "#" },
+      { label: "JHS", url: "#" },
     ],
   },
   {
