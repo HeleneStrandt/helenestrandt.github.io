@@ -37,10 +37,7 @@ const papers = [
     abstract:
       "Konzeption und Umsetzung eines Design-Systems. Skalierbare Komponenten, konsistente Tokens und barrierefreie Farbgebung.",
     draftUrl: "#",
-    collaborations: [
-      { label: "Design Collective", url: "#" },
-      { label: "Open Source Project", url: "#" },
-    ],
+    collaborations: [],
   },
 ];
 
