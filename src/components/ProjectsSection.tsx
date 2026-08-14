@@ -83,7 +83,7 @@ export function ProjectsSection() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1 rounded-full border border-primary/30 px-4 py-1.5 text-sm font-medium text-primary transition-colors hover:bg-primary hover:text-primary-foreground"
                 >
-                  Draft <ArrowUpRight className="h-4 w-4" />
+                  <ArrowUpRight className="h-4 w-4" />
                 </a>
                 {"githubUrl" in paper && paper.githubUrl && (
                   <a
