@@ -8,6 +8,7 @@ const papers = [
     abstract:
       "Eine minimalistische Web-App zur Visualisierung von Daten. Fokus auf klare Typografie, reduzierte Farben und intuitive Bedienung.",
     draftUrl: "#",
+    draftLabel: "AEA Registration",
     collaborations: [
       { label: "University X", url: "#" },
       { label: "Lab Y", url: "#" },
