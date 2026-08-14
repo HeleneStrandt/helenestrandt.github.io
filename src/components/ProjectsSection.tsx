@@ -10,7 +10,7 @@ const papers = [
     draftUrl: "#",
     draftLabel: "AEA Registration",
     collaborations: [
-      { label: "University X", url: "#" },
+      { label: "CURDES", url: "#" },
       { label: "Lab Y", url: "#" },
     ],
   },
