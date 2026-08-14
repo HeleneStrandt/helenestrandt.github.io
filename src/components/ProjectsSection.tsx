@@ -4,7 +4,7 @@ import { ArrowUpRight } from "lucide-react";
 const papers = [
   {
     title: "Informal Justice and the State",
-    coAuthors: "",
+    coAuthors: "ongoing data collection in the field",
     abstract:
       "Eine minimalistische Web-App zur Visualisierung von Daten. Fokus auf klare Typografie, reduzierte Farben und intuitive Bedienung.",
     draftUrl: "#",
