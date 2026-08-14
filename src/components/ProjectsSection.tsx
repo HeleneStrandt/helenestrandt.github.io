@@ -12,6 +12,10 @@ const papers = [
     collaborations: [
       { label: "CURDES", url: "#" },
       { label: "LADEC", url: "#" },
+      { label: "ACES", url: "#" },
+      { label: "CRC", url: "#" },
+      { label: "JHS", url: "#" },
+      { label: "PPA", url: "#" },
     ],
   },
   {
