@@ -28,7 +28,7 @@ jobs:
           GITHUB_PAGES: "true"
           # Project page => site lives at /<repo-name>/.
           # For a <user>.github.io repo, change this to "/".
-          BASE_PATH: "/${{ github.event.repository.name }}/"
+          BASE_PATH: "/"
         run: npm run build
       - name: Prepare static output
         run: |
