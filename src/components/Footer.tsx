@@ -6,10 +6,10 @@ export function Footer() {
           © {new Date().getFullYear()} Helene Strandt
         </p>
         <a
-          href="mailto:hello@helenestrandt.de"
+          href="mailto:helene.strandt@econ.lmu.de"
           className="text-sm text-muted-foreground transition-colors hover:text-primary"
         >
-          hello@helenestrandt.de
+          helene.strandt@econ.lmu.de
         </a>
       </div>
     </footer>
