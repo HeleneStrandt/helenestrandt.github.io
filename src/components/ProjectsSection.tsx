@@ -66,7 +66,7 @@ export function ProjectsSection() {
                 type="button"
                 onClick={() => toggleAbstract(paper.title)}
                 aria-expanded={!!open[paper.title]}
-                className="self-start px-0 py-1.5 text-sm font-medium text-foreground underline underline-offset-4 transition-colors hover:text-muted-foreground"
+                className="self-start px-0 py-1.5 text-sm font-medium text-foreground transition-colors hover:text-muted-foreground"
               >
                 Show/Hide abstract
               </button>
