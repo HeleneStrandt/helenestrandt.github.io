@@ -72,7 +72,7 @@ export function ProjectsSection() {
               </button>
 
               {open[paper.title] && (
-                <p className="max-w-3xl leading-relaxed text-muted-foreground">
+                <p className="max-w-3xl text-justify leading-relaxed text-muted-foreground">
                   {paper.abstract}
                 </p>
               )}
