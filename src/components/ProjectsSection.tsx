@@ -11,11 +11,11 @@ const papers = [
     draftLabel: "AEA Registration",
     preAnalysisPlanUrl: "https://drive.google.com/file/d/14qB0ErTVhaMDX_xp86jrMy-lnuBN-wSQ/view?usp=sharing",
     collaborations: [
-      { label: "CURDES", url: "https://curdes.bi/" },
-      { label: "LADEC", url: "https://www.ladec.bi/index.php?lang=fr" },
       { label: "ACES", url: "https://www.acesecon.org/home" },
       { label: "CRC", url: "https://rationality-and-competition.de/" },
+      { label: "CURDES", url: "https://curdes.bi/" },
       { label: "JHS", url: "https://www.joachim-herz-stiftung.de/en/" },
+      { label: "LADEC", url: "https://www.ladec.bi/index.php?lang=fr" },
       { label: "PPA", url: "https://www.predictive-people-analytics.net/" },
     ],
   },
