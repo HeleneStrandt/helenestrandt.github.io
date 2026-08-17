@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail } from "lucide-react";
+import { FileText, Github, Linkedin, Mail } from "lucide-react";
 import portrait from "@/assets/portrait-4x5.jpg";
 
 export function AboutSection() {
