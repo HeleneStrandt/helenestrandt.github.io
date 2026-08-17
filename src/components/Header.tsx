@@ -34,7 +34,7 @@ export function Header() {
             href={cvAsset.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-full border border-primary/30 px-4 py-1.5 text-sm font-medium text-primary transition-colors hover:bg-primary hover:text-primary-foreground"
+            className="rounded-full border border-foreground/30 px-4 py-1.5 text-sm font-medium text-foreground transition-colors hover:bg-foreground hover:text-background"
           >
             CV
           </a>
@@ -67,7 +67,7 @@ export function Header() {
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setIsOpen(false)}
-              className="w-full rounded-full border border-primary/30 px-4 py-2 text-center text-sm font-medium text-primary transition-colors hover:bg-primary hover:text-primary-foreground"
+              className="w-full rounded-full border border-foreground/30 px-4 py-2 text-center text-sm font-medium text-foreground transition-colors hover:bg-foreground hover:text-background"
             >
               CV
             </a>
