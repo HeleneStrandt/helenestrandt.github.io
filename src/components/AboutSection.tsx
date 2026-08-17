@@ -18,7 +18,7 @@ export function AboutSection() {
 
           <div>
             <p className="whitespace-pre-line text-lg leading-relaxed text-muted-foreground">
-              Hi! I am an economist at the Economics Department and the Center for Organizational Research and Evidence at LMU Munich.{"\n\n"}
+              Hi! I am an economist at the Economics Department and the Center for Organizational Research and Evidence at the University of Munich.{"\n\n"}
               I design and run experiments on how fragile states can build capacity. My current fieldwork is based in Burundi.{"\n\n"}
               I also study how political disruptions reshape cooperative behavior and, in turn, affect open-source innovation and organizational performance.
             </p>
