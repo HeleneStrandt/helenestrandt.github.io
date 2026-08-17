@@ -112,7 +112,7 @@ export function ProjectsSection() {
 
               {paper.collaborations.length > 0 && (
                 <>
-                  <p className="text-sm text-muted-foreground">Partners and Funding Bodies:</p>
+                  <p className="text-sm text-muted-foreground">Partners & Funding Bodies:</p>
                   <div className="flex flex-wrap gap-3">
                     {paper.collaborations.map((link) => (
                       <a
