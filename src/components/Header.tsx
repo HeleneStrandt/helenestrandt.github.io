@@ -48,25 +48,18 @@ export function Header() {
       {isOpen && (
         <div className="border-b border-border bg-background md:hidden">
           <nav className="flex flex-col gap-4 px-6 py-4">
-            {navLinks.map((link) => (
+          {navLinks.map((link) => (
               <a
                 key={link.href}
                 href={link.href}
+                target={link.external ? "_blank" : undefined}
+                rel={link.external ? "noopener noreferrer" : undefined}
                 className="text-sm text-muted-foreground transition-colors hover:text-foreground"
                 onClick={() => setIsOpen(false)}
               >
                 {link.label}
               </a>
             ))}
-            <a
-              href={cvUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={() => setIsOpen(false)}
-              className="text-sm text-muted-foreground transition-colors hover:text-foreground"
-            >
-              CV
-            </a>
           </nav>
         </div>
       )}
