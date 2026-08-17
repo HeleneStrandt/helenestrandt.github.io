@@ -18,8 +18,8 @@ export function AboutSection() {
 
           <div>
             <p className="whitespace-pre-line text-justify text-lg leading-relaxed text-muted-foreground">
-              Hi! I am an economist at the Economics Department and the Center for Organizational Research and Evidence at LMU Munich.{"\n\n\n"}
-              I design and run experiments on how fragile states can build capacity. My current fieldwork is based in Burundi.&nbsp;{"\n"}&nbsp;{"\n"}
+              Hi! I am an economist at the Economics Department and the Center for Organizational Research and Evidence at LMU Munich.{"\n\n"}
+              I design and run experiments on how fragile states can build capacity. My current fieldwork is based in Burundi.{"\n\n"}
               I also study how political disruptions reshape cooperative behavior and, in turn, affect open-source innovation and organizational performance.
             </p>
 
