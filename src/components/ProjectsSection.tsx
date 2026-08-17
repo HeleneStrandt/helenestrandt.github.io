@@ -105,7 +105,7 @@ export function ProjectsSection() {
                     href={link.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="px-0 py-1 text-sm text-muted-foreground underline underline-offset-4 transition-colors hover:text-foreground"
+                    className="px-0 py-1 text-sm text-muted-foreground transition-colors hover:text-foreground"
                   >
                     {link.label}
                   </a>
