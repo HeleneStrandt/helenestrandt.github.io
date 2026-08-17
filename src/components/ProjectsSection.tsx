@@ -33,7 +33,7 @@ const papers = [
   },
   {
     title: "Management Practices and Firm Performance During the Great Recession",
-    coAuthors: "with Florian Englmaier, Jose E. Galdon-Sanchez, Ricard Gil, & Michael Kaiser - under review",
+    coAuthors: "with Florian Englmaier,\u00A0Jose E. Galdon-Sanchez, Ricard Gil, & Michael Kaiser —\u00A0under review",
     abstract:
       "Konzeption und Umsetzung eines Design-Systems. Skalierbare Komponenten, konsistente Tokens und barrierefreie Farbgebung.",
     draftUrl: "#",
