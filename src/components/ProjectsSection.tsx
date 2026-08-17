@@ -35,7 +35,7 @@ const papers = [
     title: "Management Practices and Firm Performance During the Great Recession",
     coAuthors: "with Florian Englmaier,\u00A0Jose E. Galdon-Sanchez, Ricard Gil, & Michael Kaiser —\u00A0under review",
     abstract:
-      "Konzeption und Umsetzung eines Design-Systems. Skalierbare Komponenten, konsistente Tokens und barrierefreie Farbgebung.",
+      "This paper empirically examines how management practices affect firm productivity over the business cycle. Using plant-level high-dimensional human resource policies survey data collected in Spain in 2006, we employ unsupervised machine learning to describe clusters of management practices (``management styles''). We establish a positive correlation between structured management and performance prior to the 2008 financial crisis. Interestingly, this correlation turns negative during the financial crisis and positive again in the economic recovery post-2013. Our evidence suggests firms with more structured management are more likely to have practices fostering culture and intangible investments. Through such investments, they focus in long-run profitability, prioritizing innovation over cost reduction, while having higher adjustment costs in the short-run through higher share of fixed assets and lower employee turnover.",
     draftUrl: "https://drive.google.com/file/d/1r8f-sTNmh5unMvE-s0ISY_ZXm9kwRZwD/view?usp=sharing",
     collaborations: [],
   },
