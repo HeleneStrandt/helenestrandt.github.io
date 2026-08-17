@@ -35,7 +35,7 @@ export function Header() {
             href={cvUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-full border border-foreground/30 px-4 py-1.5 text-sm font-medium text-foreground transition-colors hover:bg-foreground hover:text-background"
+            className="text-sm text-muted-foreground transition-colors hover:text-foreground"
           >
             CV
           </a>
