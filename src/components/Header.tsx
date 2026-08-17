@@ -50,7 +50,7 @@ export function Header() {
       </div>
 
       {isOpen && (
-        <div className="border-b border-white/10 bg-background md:hidden">
+        <div className="border-b border-border bg-background md:hidden">
           <nav className="flex flex-col gap-4 px-6 py-4">
             {navLinks.map((link) => (
               <a
