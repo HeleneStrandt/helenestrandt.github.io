@@ -1,3 +1,4 @@
+import { Github, Linkedin, Mail } from "lucide-react";
 import portraitAsset from "@/assets/portrait-4x5.jpg.asset.json";
 
 export function AboutSection() {
