@@ -16,11 +16,10 @@ export function AboutSection() {
           </div>
 
           <div>
-            <p className="text-lg leading-relaxed text-muted-foreground">
-              Ich gestalte digitale Produkte mit Fokus auf klare Ideen, minimalistisches Design
-              und durchdachte Details. In meiner Arbeit verbinde ich Ästhetik mit Funktion – immer
-              mit dem Ziel, etwas Einfaches und Nachhaltiges zu schaffen. Aktuell suche ich neue
-              Projekte und spannende Herausforderungen im Bereich Web, Design und digitale Produkte.
+            <p className="whitespace-pre-line text-lg leading-relaxed text-muted-foreground">
+              Hi! I am a PhD candidate in economics at the University of Munich.{"\n\n"}
+              I design and run experiments on how fragile states can build capacity. My current fieldwork is based in Burundi.{"\n\n"}
+              I also study how political disruptions affect cooperation and thereby innovation and firm performance. I use quasi-experimental methods and primary data.
             </p>
           </div>
         </div>
