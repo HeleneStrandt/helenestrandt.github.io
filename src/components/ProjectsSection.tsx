@@ -68,7 +68,7 @@ export function ProjectsSection() {
                 aria-expanded={!!open[paper.title]}
                 className="self-start rounded-full border border-foreground/30 px-4 py-1.5 text-sm font-medium text-foreground transition-colors hover:bg-foreground hover:text-background"
               >
-                {open[paper.title] ? "Hide abstract" : "Show abstract"}
+                {open[paper.title] ? "Show/Hide\u00a0abstract" : "Show/Hide\u00a0abstract"}
               </button>
 
               {open[paper.title] && (
