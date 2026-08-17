@@ -22,6 +22,34 @@ export function AboutSection() {
               I design and run experiments on how fragile states can build capacity. My current fieldwork is based in Burundi.{"\n\n"}
               I also study how political disruptions affect cooperation and thereby innovation and firm performance.
             </p>
+
+            <div className="mt-8 flex flex-wrap gap-4">
+              <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-0 py-1.5 text-sm font-medium text-foreground transition-colors hover:text-muted-foreground"
+              >
+                <Linkedin className="h-4 w-4" />
+                LinkedIn
+              </a>
+              <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-0 py-1.5 text-sm font-medium text-foreground transition-colors hover:text-muted-foreground"
+              >
+                <Github className="h-4 w-4" />
+                GitHub
+              </a>
+              <a
+                href="mailto:hello@example.com"
+                className="inline-flex items-center gap-2 px-0 py-1.5 text-sm font-medium text-foreground transition-colors hover:text-muted-foreground"
+              >
+                <Mail className="h-4 w-4" />
+                Email
+              </a>
+            </div>
           </div>
         </div>
       </div>
