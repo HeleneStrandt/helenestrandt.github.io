@@ -25,7 +25,7 @@ export function AboutSection() {
 
             <div className="mt-8 flex flex-wrap gap-4">
               <a
-                href="#"
+                href="https://www.linkedin.com/in/helene-strandt-235423131/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-0 py-1.5 text-sm font-medium text-foreground transition-colors hover:text-muted-foreground"
@@ -34,7 +34,7 @@ export function AboutSection() {
                 LinkedIn
               </a>
               <a
-                href="#"
+                href="https://github.com/HeleneStrandt"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-0 py-1.5 text-sm font-medium text-foreground transition-colors hover:text-muted-foreground"
@@ -43,7 +43,7 @@ export function AboutSection() {
                 GitHub
               </a>
               <a
-                href="mailto:hello@example.com"
+                href="mailto:helene.strandt@econ.lmu.de"
                 className="inline-flex items-center gap-2 px-0 py-1.5 text-sm font-medium text-foreground transition-colors hover:text-muted-foreground"
               >
                 <Mail className="h-4 w-4" />
