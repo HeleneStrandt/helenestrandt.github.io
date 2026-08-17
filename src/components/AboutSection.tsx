@@ -16,13 +16,21 @@ export function AboutSection() {
             </div>
           </div>
 
-          <div>
-            <p className="whitespace-pre-line text-lg leading-relaxed text-muted-foreground">
-              Hi! I am an economist at the Economics Department and the Center for Organizational Research and Evidence at the University of Munich.{"\n\n"}
-              I design and run experiments on how fragile states can build capacity. My current fieldwork is based in Burundi.{"\n\n"}
-              I also study how political disruptions reshape cooperative behavior and, in turn, affect open-source innovation and organizational performance.{"\n\n\n"}
+          <div className="space-y-6">
+            <p className="text-lg leading-relaxed text-muted-foreground">
+              Hi! I am an economist at the Economics Department and the Center for Organizational Research and Evidence at the University of Munich.
+            </p>
+            <p className="text-lg leading-relaxed text-muted-foreground">
+              I design and run experiments on how fragile states can build capacity. My current fieldwork is based in Burundi.
+            </p>
+            <p className="text-lg leading-relaxed text-muted-foreground">
+              I also study how political disruptions reshape cooperative behavior and, in turn, affect open-source innovation and organizational performance.
+            </p>
+            <p className="text-lg leading-relaxed text-muted-foreground">
               You can find the partners I brought on board and the funding I secured for these projects below.
             </p>
+          </div>
+
 
             <div className="mt-8 flex flex-wrap gap-4">
               <a
