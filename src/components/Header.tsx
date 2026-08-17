@@ -27,19 +27,13 @@ export function Header() {
             <a
               key={link.href}
               href={link.href}
+              target={link.external ? "_blank" : undefined}
+              rel={link.external ? "noopener noreferrer" : undefined}
               className="text-sm text-muted-foreground transition-colors hover:text-foreground"
             >
               {link.label}
             </a>
           ))}
-          <a
-            href={cvUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm text-muted-foreground transition-colors hover:text-foreground"
-          >
-            CV
-          </a>
         </nav>
 
         <button
