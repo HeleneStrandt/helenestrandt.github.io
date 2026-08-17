@@ -98,16 +98,16 @@ export function ProjectsSection() {
                 )}
               </div>
 
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-3">
                 {paper.collaborations.map((link) => (
                   <a
                     key={link.label}
                     href={link.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="px-0 py-1 text-sm text-muted-foreground transition-colors hover:text-foreground"
+                    className="inline-flex items-center gap-1 px-0 py-1.5 text-sm font-medium text-foreground transition-colors hover:text-muted-foreground"
                   >
-                    {link.label}
+                    {link.label} <ArrowUpRight className="h-4 w-4" />
                   </a>
                 ))}
               </div>
