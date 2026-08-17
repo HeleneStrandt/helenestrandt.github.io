@@ -80,6 +80,16 @@ export function ProjectsSection() {
               )}
 
               <div className="flex flex-wrap gap-3">
+                {"preAnalysisPlanUrl" in paper && paper.preAnalysisPlanUrl && (
+                  <a
+                    href={paper.preAnalysisPlanUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1 px-0 py-1.5 text-sm font-medium text-foreground transition-colors hover:text-muted-foreground"
+                  >
+                    Pre-Analysis Plan <ArrowUpRight className="h-4 w-4" />
+                  </a>
+                )}
                 <a
                   href={paper.draftUrl}
                   target="_blank"
