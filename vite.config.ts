@@ -15,7 +15,7 @@ export default defineConfig({
   ...(isGitHubPages
     ? {
         vite: { base: basePath },
-        nitro: { preset: "static" },
+        nitro: false as const,
       }
     : {}),
   tanstackStart: {
