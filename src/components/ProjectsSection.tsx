@@ -82,7 +82,7 @@ export function ProjectsSection() {
                   href={paper.draftUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1 rounded-full border border-foreground/30 px-4 py-1.5 text-sm font-medium text-foreground transition-colors hover:bg-foreground hover:text-background"
+                  className="inline-flex items-center gap-1 px-0 py-1.5 text-sm font-medium text-foreground underline underline-offset-4 transition-colors hover:text-muted-foreground"
                 >
                   {"draftLabel" in paper ? (paper as any).draftLabel : "Draft"} <ArrowUpRight className="h-4 w-4" />
                 </a>
@@ -91,7 +91,7 @@ export function ProjectsSection() {
                     href={paper.githubUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1 rounded-full border border-foreground/30 px-4 py-1.5 text-sm font-medium text-foreground transition-colors hover:bg-foreground hover:text-background"
+                    className="inline-flex items-center gap-1 px-0 py-1.5 text-sm font-medium text-foreground underline underline-offset-4 transition-colors hover:text-muted-foreground"
                   >
                     GitHub Repo <ArrowUpRight className="h-4 w-4" />
                   </a>
@@ -105,7 +105,7 @@ export function ProjectsSection() {
                     href={link.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="rounded-full border border-border px-3 py-1 text-sm text-muted-foreground transition-colors hover:border-foreground/30 hover:text-foreground"
+                    className="px-0 py-1 text-sm text-muted-foreground underline underline-offset-4 transition-colors hover:text-foreground"
                   >
                     {link.label}
                   </a>
