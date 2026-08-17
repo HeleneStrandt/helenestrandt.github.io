@@ -28,6 +28,7 @@ const papers = [
     collaborations: [
       { label: "bidt", url: "https://en.bidt.digital/" },
       { label: "DFG", url: "https://www.dfg.de/en" },
+      { label: "LMU-NYU-RCP", url: "https://www.lmu.de/en/about-lmu/international-network/lmu-nyu-research-cooperation-program/" },
     ],
   },
   {
