@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail } from "lucide-react";
+import { FileText, Github, Linkedin, Mail } from "lucide-react";
 import portrait from "@/assets/portrait-4x5.jpg";
 
 export function AboutSection() {
@@ -24,6 +24,15 @@ export function AboutSection() {
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">
+              <a
+                href="/CV.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-0 py-1.5 text-sm font-medium text-foreground transition-colors hover:text-muted-foreground"
+              >
+                <FileText className="h-4 w-4" />
+                CV
+              </a>
               <a
                 href="https://www.linkedin.com/in/helene-strandt-235423131/"
                 target="_blank"
