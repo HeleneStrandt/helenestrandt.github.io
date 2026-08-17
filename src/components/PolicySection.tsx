@@ -1,4 +1,4 @@
-export function PolicySection() {
+import { ArrowUpRight } from "lucide-react";
   return (
     <section id="policy" className="py-20 md:py-28">
       <div className="mx-auto max-w-5xl px-6">
