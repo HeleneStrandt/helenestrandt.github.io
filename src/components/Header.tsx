@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import cvAsset from "@/assets/CV.pdf.asset.json";
+const cvUrl = `${import.meta.env.BASE_URL}CV.pdf`;
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false);

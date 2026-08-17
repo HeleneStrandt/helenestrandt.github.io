@@ -1,5 +1,5 @@
 import { Github, Linkedin, Mail } from "lucide-react";
-import portraitAsset from "@/assets/portrait-4x5.jpg.asset.json";
+import portrait from "@/assets/portrait-4x5.jpg";
 
 export function AboutSection() {
   return (
@@ -9,7 +9,7 @@ export function AboutSection() {
           <div className="flex justify-center md:justify-start">
             <div className="relative w-64 overflow-hidden rounded-2xl bg-muted ring-1 ring-border md:w-80">
               <img
-                src={portraitAsset.url}
+                src={portrait}
                 alt="Portrait of Helene Strandt"
                 className="block h-auto w-full object-cover"
               />
