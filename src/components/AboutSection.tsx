@@ -6,7 +6,7 @@ export function AboutSection() {
       <div className="mx-auto max-w-5xl px-6">
         <div className="grid items-center gap-12 md:grid-cols-2 md:gap-16">
           <div className="flex justify-center md:justify-start">
-            <div className="relative w-64 overflow-hidden rounded-2xl bg-gradient-to-br from-primary/20 to-primary/5 ring-1 ring-white/10 md:w-80">
+            <div className="relative w-64 overflow-hidden rounded-2xl bg-muted ring-1 ring-border md:w-80">
               <img
                 src={portraitAsset.url}
                 alt="Portrait of Helene Strandt"
