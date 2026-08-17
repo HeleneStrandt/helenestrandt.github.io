@@ -111,22 +111,20 @@ export function ProjectsSection() {
               </div>
 
               {paper.collaborations.length > 0 && (
-                <>
-                  <p className="text-sm text-muted-foreground">Partners & Funding Bodies:</p>
-                  <div className="flex flex-wrap gap-3">
-                    {paper.collaborations.map((link) => (
-                      <a
-                        key={link.label}
-                        href={link.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center gap-1 px-0 py-1.5 text-sm font-medium text-foreground transition-colors hover:text-muted-foreground"
-                      >
-                        {link.label} <ArrowUpRight className="h-4 w-4" />
-                      </a>
-                    ))}
-                  </div>
-                </>
+                <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                  <p className="text-sm font-medium text-foreground">Partners & Funding Bodies:</p>
+                  {paper.collaborations.map((link) => (
+                    <a
+                      key={link.label}
+                      href={link.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 px-0 py-1.5 text-sm font-medium text-foreground transition-colors hover:text-muted-foreground"
+                    >
+                      {link.label} <ArrowUpRight className="h-4 w-4" />
+                    </a>
+                  ))}
+                </div>
               )}
             </article>
           ))}
