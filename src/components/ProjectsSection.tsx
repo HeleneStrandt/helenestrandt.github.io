@@ -20,7 +20,7 @@ const papers = [
   },
   {
     title: "From Friends to Foes: Identity and Knowledge Exchange",
-    coAuthors: "with Nadzeya Laurentsyeva - under review",
+    coAuthors: "with Nadzeya Laurentsyeva —\u00A0under review",
     abstract:
       "Do identity concerns disrupt the exchange of ideas and, in turn, technological progress? This paper isolates the negative effect of identity-based polarization on user collaborations and the quality of open-source software on GitHub. We exploit the eruption of conflict between Russia and Ukraine in 2014, which induced a sharp deterioration in sentiment between Russians and Ukrainians while leaving access to GitHub's digital infrastructure intact. Conflict-induced identity concerns led to a decline in contributions between Russian and Ukrainian GitHub users, particularly when ethnic identity signals were salient. Projects that had relied on Russian-Ukrainian collaboration subsequently attract fewer contributions and lower downstream usage.",
     draftUrl: "#",
@@ -33,7 +33,7 @@ const papers = [
   },
   {
     title: "Management Practices and Firm Performance During the Great Recession",
-    coAuthors: "with Florian Englmaier, Jose E. Galdon-Sanchez, Ricard Gil, & Michael Kaiser - under review",
+    coAuthors: "with Florian Englmaier,\u00A0Jose E. Galdon-Sanchez, Ricard Gil, & Michael Kaiser —\u00A0under review",
     abstract:
       "Konzeption und Umsetzung eines Design-Systems. Skalierbare Komponenten, konsistente Tokens und barrierefreie Farbgebung.",
     draftUrl: "#",
