@@ -7,15 +7,15 @@ const papers = [
     coAuthors: "ongoing data collection in Burundi",
     abstract:
       "This paper examines how access to the state's justice institution affects citizens' incentives to monitor an existing communal justice institution—the Village Court. I conduct a field experiment in Burundi that exogenously corrects beliefs about the financial accessibility of state justice. Access to the state in future disputes makes social sanctions associated with speaking out to Village Court judges less punitive, thereby complementing incentives to monitor them. However, access to the state enables litigants to secure outcomes that community members might otherwise achieve through monitoring. Citizens may therefore refrain from speaking out, expecting litigants to rely on the state institution instead. Such substitution, particularly by citizens aligned with the state's jurisprudence, would undermine the state's efforts to build legal capacity. I further test whether the state can mitigate such a low-capacity trap by mobilizing financial resources from citizens. If citizens are unwilling to finance state justice, a pragmatic state may rationally refrain from duplicating services already provided by the Village Court, thereby nuancing the notion of state weakness.",
-    draftUrl: "#",
+    draftUrl: "https://www.socialscienceregistry.org/trials/18022",
     draftLabel: "AEA Registration",
     collaborations: [
-      { label: "CURDES", url: "#" },
-      { label: "LADEC", url: "#" },
-      { label: "ACES", url: "#" },
-      { label: "CRC", url: "#" },
-      { label: "JHS", url: "#" },
-      { label: "PPA", url: "#" },
+      { label: "CURDES", url: "https://curdes.bi/" },
+      { label: "LADEC", url: "https://www.ladec.bi/index.php?lang=fr" },
+      { label: "ACES", url: "https://www.acesecon.org/home" },
+      { label: "CRC", url: "https://rationality-and-competition.de/" },
+      { label: "JHS", url: "https://www.joachim-herz-stiftung.de/en/" },
+      { label: "PPA", url: "https://www.predictive-people-analytics.net/" },
     ],
   },
   {
@@ -27,7 +27,7 @@ const papers = [
     githubUrl: "#",
     collaborations: [
       { label: "bidt", url: "https://en.bidt.digital/" },
-      { label: "DFG", url: "#" },
+      { label: "DFG", url: "https://www.dfg.de/en" },
     ],
   },
   {
