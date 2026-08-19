@@ -10,7 +10,7 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "Helene Strandt – Portfolio & CV" },
+      { title: "Helene Strandt" },
       { name: "description", content: "Minimalistisches Portfolio und Lebenslauf von Helene Strandt." },
       { property: "og:title", content: "Helene Strandt – Portfolio & CV" },
       { property: "og:description", content: "Minimalistisches Portfolio und Lebenslauf von Helene Strandt." },
